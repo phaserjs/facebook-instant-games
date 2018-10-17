@@ -1,0 +1,25 @@
+{
+  "name": "phaser-facebook-instant-games",
+  "version": "1.0.0",
+  "description": "Phaser Facebook Instant Games Examples",
+  "main": "src/boot.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "http-server --ssl -c-1 -p 8080 -a 127.0.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/photonstorm/phaser-facebook-instant-games.git"
+  },
+  "author": "Richard Davey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/photonstorm/phaser-facebook-instant-games/issues"
+  },
+  "homepage": "https://github.com/photonstorm/phaser-facebook-instant-games#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
