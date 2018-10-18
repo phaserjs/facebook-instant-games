@@ -10,6 +10,7 @@ class Preloader extends Phaser.Scene {
         this.facebook.showLoadProgress(this);
         this.facebook.once('startgame', this.startGame, this);
 
+        this.load.image('spyro', 'assets/spyro.png');
         this.load.image('mask', 'assets/mask1.png');
         this.load.image('stats', 'assets/stats.png');
         this.load.bitmapFont('short', 'assets/short-stack.png', 'assets/short-stack.xml');
@@ -21,7 +22,9 @@ class Preloader extends Phaser.Scene {
     {
         // this.scene.start('MainMenu');
         // this.scene.start('PlayerDetails');
-        this.scene.start('GameStats');
+        // this.scene.start('GameStats');
+        // this.scene.start('GameData');
+        this.scene.start('GameShare');
     }
 
 }

@@ -3,10 +3,6 @@ class GameStats extends Phaser.Scene {
     constructor ()
     {
         super({ key: 'GameStats', active: false });
-
-        // this.leaderboard;
-        // this.mana;
-        // this.gems;
     }
 
     create ()

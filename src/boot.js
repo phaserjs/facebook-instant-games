@@ -5,7 +5,7 @@ FBInstant.initializeAsync().then(function() {
         width: 800,
         height: 600,
         backgroundColor: '#222448',
-        scene: [ Preloader, GameStats ]
+        scene: [ Preloader, GameShare ]
     };
 
     new Phaser.Game(config);
